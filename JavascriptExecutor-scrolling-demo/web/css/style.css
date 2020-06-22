@@ -1,0 +1,13 @@
+#main {
+    width: 3000px;
+    height: 2000px;
+}
+
+.general {
+    color: blue;
+    font-weight: bold;
+}
+
+#right {
+    float:right;
+}
