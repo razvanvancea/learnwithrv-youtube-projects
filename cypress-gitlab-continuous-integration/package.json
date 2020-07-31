@@ -1,0 +1,16 @@
+{
+  "name": "cypress-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runHeadless": "./node_modules/.bin/cypress run --headless",
+    "runHeaded": "./node_modules/.bin/cypress run --headed --browser chrome "
+  },
+  "author": "Razvan Vancea",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.11.0"
+  }
+}
