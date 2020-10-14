@@ -13,5 +13,8 @@ describe("user actions suite", function () {
     loginPage.getEmailField().type("admin@admin.com");
     loginPage.getPasswordField().type("admin123");
     loginPage.getSubmitBtn().click();
+    loginPage
+      .getResponseMessage()
+      .should("have.text", "You have successfully logged in!");
   });
 });

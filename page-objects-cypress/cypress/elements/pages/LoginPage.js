@@ -10,4 +10,8 @@ export default class LoginPage {
   getSubmitBtn() {
     return cy.get("#submitLoginBtn");
   }
+
+  getResponseMessage() {
+    return cy.get("#message");
+  }
 }
