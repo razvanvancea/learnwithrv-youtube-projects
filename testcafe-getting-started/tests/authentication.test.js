@@ -3,12 +3,13 @@ import { Selector } from "testcafe";
 
 // prettier-ignore
 fixture `authentication suite`.page `https://qa-automation-practice.netlify.app/login.html`
-test("login scenario", async (t) => {
+test("login scenario - bad creds", async (t) => {
   const emailField = Selector("#email");
   const pswField = Selector("#password");
   const loginBtn = Selector("#submitLoginBtn");
   const responseMsgElement = Selector("#message");
-  const responseSuccessMessage = "You have successfully logged in";
+  const responseSuccessMessage =
+    "Bad credentials! Please try again! Make sure that you've registered.";
 
   await t
     .typeText(emailField, "admin@admin.com")
