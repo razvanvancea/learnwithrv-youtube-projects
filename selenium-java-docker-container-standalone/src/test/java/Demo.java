@@ -14,7 +14,7 @@ public class Demo {
 
     WebDriver driver;
     static final String APP_URL = "https://qa-automation-practice.netlify.app/";
-    static final String HOST_URL = "http://localhost:4444/wd/hub";
+    static final String HOST_URL = "http://34.130.122.215:4444/wd/hub";
 
     @BeforeMethod
     public void setUp(){
