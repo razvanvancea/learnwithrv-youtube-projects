@@ -1,11 +1,9 @@
-# Learn with RV - YouTube Channel
-https://www.youtube.com/c/learnwithrv
+# Learn with RV - YouTube Channel - Source Code
 
 This repository includes the source code for all the tutorials uploaded on the channel.
 
+ [Learn With RV - YouTube](https://www.youtube.com/c/learnwithrv)
 
-For further questions, feel free to contact me :)
-
-LinkedIn: https://www.linkedin.com/in/razvanvancea
-
-Website: https://razvanvancea.ro/
+## Contact
+[Website](https://razvanvancea.ro/)
+[LinkedIn](https://www.linkedin.com/in/razvanvancea)
