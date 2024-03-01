@@ -1,0 +1,16 @@
+{
+  "name": "mockserver-pactum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha tests/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.3.0",
+    "pactum": "^3.6.1"
+  }
+}
